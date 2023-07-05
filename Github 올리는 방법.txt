@@ -1,0 +1,18 @@
+1. 로컬 저장소의 git 히스토리 삭제
+$ rm -rf .git
+
+2. 로컬 저장소를 다시 초기화
+$ git init
+
+3. 초기화할 파일을 추가 & 커밋
+$ git add .
+$ git commit -m "first project commit"
+
+4. 커밋 히스토리 확인
+$ git log
+
+5.
+…or push an existing repository from the command line
+생성한 리포지토리 주소 예)git remote add origin https://github.com/vooham/sample.git
+git branch -M main
+git push -u origin main
